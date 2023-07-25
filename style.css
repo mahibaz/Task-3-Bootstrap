@@ -1,0 +1,41 @@
+.navbar-brand{
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.testing{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+.language{
+    background-color: rgb(65, 66, 43);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+.courses{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.15s;
+}
+
+.courses:hover{
+    color: #fff;
+    background-color: rgb(90, 135, 135);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
+}
+
+
+
+.contact{
+    border-color: rgb(0, 0, 0);
+    border-radius: 500px;
+    color: #fff;
+    background-color: #fff;
+    border-style: solid;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
+    transition: box-shadow 1s;
+    border-width: 3px;
+}
+

@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap project</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--navbar-->
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="/">SOFTWARE TESTER</a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="mynavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="navbar-collapse">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="#" class="nav-link text-light">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-light">CARREER</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-light">FUTURE</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-light">CONTACT US</a>
+              </li>
+            </ul>
+            <button class="btn btn-outline-success text-light" type="submit">
+              Search
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!--carousel-->
+      <div
+        id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"class="active"aria-current="true"aria-label="Slide 1"
+          ></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"
+          ></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/Software- Testing-2.webp" class="d-block w-100" height="600px" alt="image"/>
+          </div>
+          <div class="carousel-item">
+            <img src="images/testing.png" class="d-block w-100" height="600px" alt="image"/>
+          </div>
+          <div class="carousel-item">
+            <img src="images/Software-Testing-3.jpg" class="d-block w-100" height="600px" alt="image"/>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="container container-xl">
+        <div class="row justify-content-center testing">
+          <div class="col-4 text-center">
+            <h1>Sanity Testing</h1>
+            <p>Sanity Testing or Surface Level testing is a type of testing which is performed on the stable build of the software. 
+              It is a quick and basic test to ensure that the code changes made are working properly without any bugs. It is not a detailed testing.</p>
+          </div>
+          <div class="col-4 text-center">
+            <h1>Regression</h1>
+            <p>Regression Testing in the software development cycle that runs after every change to ensure the change introduces no unintended breaks. 
+              It is addresses a common issue that developers face the emergence of old bugs with the introduction of new changes.</p>
+          </div>
+          <div class="col-4 text-center">
+            <h1>Smoke Testing</h1>
+            <p>Smoke testing also called build verification testing, a method that is used to determine 
+              if a new software build is ready for the next testing phase. This testing determines the most crucial functions of a program 
+              work but does not delver into finer details.</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!--about us-->
+
+    <div class="container-fluid py-5 text-secondary bg-secondary text-center">
+      <div class="container text-center" id="about">
+      <h1 class="text-white pb-5">ABOUT US</h1>
+      <div class="container bg-body-tertiary p-3">
+          <div class="row align-items-md-stretch">
+              <div class="col-md-6 py-3">
+                <div class="h-100 p-5 rounded-3">
+                  <h2 class="text-dark">About Software Tester</h2>
+                  <p>
+                    Software testers perform automated and manual tests to ensure that the software operates as designed and that any bugs or issues are fixed. 
+                    In today's digital world, every industry, from banking to healthcare, relies on the work of software testers to help create superior products.
+                  </p>
+                  <p >
+                    A good software tester must have excellent analytical skills. This will help the tester to break down a complex system into smaller chunks and get 
+                    a clear understanding of the code. Further, it will help to design better test cases that will enhance the overall productivity of the system.              
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="h-100 p-5 rounded-3">
+                  <img src="images/software-testing-4.jpg" class="w-100">
+                </div>
+              </div>
+          </div>
+      </div>
+      </div>
+    </div>
+    <!--cards-->
+    <div class="language">
+      <div class="text-center text-light" style="padding: 20px 0">
+        <h2>Software Testing</h2>
+        <p>Software testing languages and frameworks </p>
+      </div>
+      <div class="justify-content-center" style="display: flex">
+        <div class="card text-center" style="width: 400px; margin-right: 20px">
+          <div class="card-body courses">
+            <h4 class="card-title">JAVA</h4>
+            <p class="card-text">
+              Java is a platform-independent, object-oriented programming language (OOP). It is not to be confused with JavaScript, a scripting language
+               used to create dynamic web pages. Due to its reliability and ease of use, Java is one of the most popular programming languages in the world.
+            </p>
+          </div>
+        </div>
+        <div class="card text-center" style="width: 400px; margin-right: 20px">
+          <div class="card-body courses">
+            <h4 class="card-title">PYTHON</h4>
+            <p class="card-text">
+              Python is commonly used for developing websites and software, task automation, data analysis, and data visualization. Since it's relatively easy to learn, 
+              Python has been adopted by many non-programmers such as accountants and scientists, for a variety of everyday tasks.
+            </p>
+          </div>
+        </div>
+        <div class="card text-center" style="width: 400px; margin-right: 20px">
+          <div class="card-body courses">
+            <h4 class="card-title">CUCUMBER</h4>
+            <p class="card-text">
+              Cucumber is a Behavior Driven Development tool used to develop test cases for the behavior of software's functionality. It plays a supporting role in 
+              automated testing. In other words, "Cucumber is a software tool used by the testers to develop test cases for the testing of behavior of the software."
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="justify-content-center mt-5" style="display: flex">
+        <div class="card text-center" style="width: 400px; margin-right: 20px">
+          <div class="card-body courses">
+            <h4 class="card-title">TEST NG</h4>
+            <p class="card-text">
+              TestNG is an open-source test automation framework for Java. It is developed on the same lines as JUnit and NUnit. 
+              A useful features provided by TestNG make it a more robust framework than its peers. The NG stands for 'Next Generation.'
+            </p>
+          </div>
+        </div>
+        <div class="card text-center" style="width: 400px; margin-right: 20px">
+          <div class="card-body courses">
+            <h4 class="card-title">J-METER</h4>
+            <p class="card-text">
+              The Apache JMeter is an open-source, purely Java-based software. The software is used to perform performance testing, 
+              functional testing, and of web applications. It is used to test load testing functional behavior and measuring performance.
+            </p>
+          </div>
+        </div>
+        <div class="card text-center" style="width: 400px; margin-right: 20px">
+          <div class="card-body courses">
+            <h4 class="card-title">J-UNIT</h4>
+            <p class="card-text">
+              JUnit is a unit testing open-source framework for the Java programming language. Java Developers use this
+              framework to write and execute automated tests. In Java, there are test cases that have to be re-executed every time a new code is added.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+        <!--testimonials-->
+        <div class="container-fluid bg-dark h-auto d-inline-block"> 
+
+          <div class="container mt-5 text-center">
+            <h1 class="text-light pt-4 fs-3">TESTIMONIAL</h1>
+            <div class="container my-5 bg-white">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <h2 class="my-2">James Gosling</h2>
+                      <img class="mt-4 mb-4" src="images/James_Gosling_2008.jpg" width="200" height="200" alt="image">
+                      <p class="ps-5 pe-5">Java is an object-oriented programming language designed by James Gosling at Sun Microsystems in 1991.</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <h2 class="my-2">Guido van Rossum</h2>
+                        <img class="mt-4 mb-4" src="images/guido-headshot-2019.jpg" width="200" height="200" alt="image">
+                        <p class="ps-5 pe-5">The programming language Python was conceived in the late 1980s, and its implementation was started in December 1989.</p>                  
+                      </div>
+                      <div class="col-lg-4">
+                        <h2 class="my-2">Matt Wynne</h2>
+                        <img class="mt-4 mb-4" src="images/matt wynne.jpg" width="200" height="200" alt="image">
+                        <p class="ps-5 pe-5">Aslak is the creator of Cucumber. He wrote the Cucumber Book, Behaviour-Driven Development for Developers and Testers.</p> 
+                      </div>
+                  </div>
+            </div>
+            </div>
+          </div>
+
+            <!--contact us-->
+      <div class="container-fluid bg-secondary p-5">
+      <div class="container bg-white p-5 d-flex justify-content-center align-items-center flex-column" id="contact">
+
+        <h1 class="text-dark pb-5 fs-3">CONTACT US</h1> 
+
+        <div class="form d-flex justify-content-center align-items-center">
+            <form  class="text-bg-light p-3 rounded contact">
+                <div class="my-3">
+                    <input type="text" name="firstname" class="form-control" id="first" placeholder="FirstName" required>
+                  </div>
+                  <div class="my-3">
+                    <input type="text" name="lastname" class="form-control" id="last" placeholder="LastName" required>
+                  </div>
+                  <div class="my-3">
+                    <input type="password" name="password" class="form-control" id="password" placeholder="Password" required>
+                  </div>
+
+                  <div class="my-3">
+                    <input type="date" class="form-control">
+                  </div>
+                  <div class="my-3">
+                    <input type="email" name="email" class="form-control" id="email" placeholder="Enter email" required>
+                  </div>
+              
+                  <div class="my-3">
+                    <input type="submit" class="form-control" value="Submit">
+                </div>
+                  
+            </form>
+        </div>
+    </div>
+  </div>         
+    
+   
+    
+
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
+
